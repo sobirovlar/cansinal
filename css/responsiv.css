@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+    .header {
+      padding: 0;
+    }
+    .navbar__nav a {
+      display: none;
+    }
+    .nav__logo img {
+      width: 90%;
+    }
+  .banner{
+    .banner__content{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  }
+  .courses{
+    .courses__content{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .about{
+    .about__content{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .blog{
+  .blog__contact{
+    grid-template-columns: 1fr;
+  }
+  }
+  .testimonial{
+    .test__contact{
+      grid-template-columns: 1fr;
+    }
+  }
+  .map{
+    .map__contact{
+        grid-template-columns: 1fr;
+        .item{
+            h2{
+                
+            }
+        }
+      .map__item{
+        height: 70vh;
+        
+    }
+  }
+}
+.footer{
+    height: 168vh;
+    .footer__contact{
+        grid-template-columns: 1fr;
+        .item{
+            border-left: 1px solid #ffffff;
+            border-right: 1px solid #cecece;
+            padding: 0 20px 0 30px;
+        }
+    }
+}
+  
