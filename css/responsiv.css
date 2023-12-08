@@ -14,7 +14,7 @@
       grid-template-columns: 1fr;
     }
   }
-  }
+ 
   .courses{
     .courses__content{
       display: grid;
@@ -42,7 +42,7 @@
         grid-template-columns: 1fr;
         .item{
             h2{
-                
+              display: none;  
             }
         }
       .map__item{
@@ -62,4 +62,4 @@
         }
     }
 }
-  
+}
